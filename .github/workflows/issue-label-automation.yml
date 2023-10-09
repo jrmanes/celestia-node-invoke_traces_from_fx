@@ -13,7 +13,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Check for External Contributor
-        uses: tspascoal/get-user-teams-membership@v2
+        uses: tspascoal/get-user-teams-membership@v3
         id: teamCheck
         with:
           username: ${{ github.actor }}
